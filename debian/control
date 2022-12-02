@@ -1,0 +1,21 @@
+Source: qpmad
+Priority: optional
+Maintainer: Pierre Gergondet <pierre.gergondet+ppa@gmail.com>
+Standards-Version: 3.9.5
+Section: libs
+Homepage: https://github.com/asherikov/qpmad
+Build-Depends: debhelper (>= 9),
+               pkg-config,
+               cmake,
+               doxygen,
+               graphviz,
+               libeigen3-dev
+
+Package: libqpmad-dev
+Section: libdevel
+Architecture: any
+Depends: cmake,
+         libeigen3-dev,
+         ${shlibs:Depends},
+         ${misc:Depends}
+Description: Eigen-based, header-only C++ implementation of GI

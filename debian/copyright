@@ -1,0 +1,13 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: qpmad
+Source: https://github.com/asherikov/qpmad
+
+Files: *
+Copyright: 2017 Alexander Sherikov
+License: Apache-2.0
+ See /usr/share/common-licenses/Apache-2.0
+
+Files: debian/*
+Copyright: 2022 Pierre Gergondet <pierre.gergondet+ppa@gmail.com>
+License: GPL-2
+ See /usr/share/common-licenses/GPL-2
