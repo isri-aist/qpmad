@@ -1,4 +1,4 @@
-name: Package proxsuite
+name: Package qpmad
 on:
   repository_dispatch:
     types:
